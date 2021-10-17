@@ -302,20 +302,19 @@ div.active {
 
 
 
-/*
-nombre y foto
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 1em;
-    justify-content: space-evenly;
-    align-items: center;
-*/
+.attribution {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #ffffff;
+  padding: 2em;
+}
 
-/*
-tiempo
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-*/
+.attribution a {
+  
+  color: #ffffff;
+}
+
+.attribution span {
+  padding-left: 5px;
+} 
